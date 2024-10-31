@@ -32,7 +32,7 @@ class MainActivity : ComponentActivity() {
             BirthDayCardTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     GreetingImage(
-                        message = "Happy Birthday Friend!",
+                        message = "Happy Birthday My Friend!",
                         from = "From Yasir",
                         modifier = Modifier.padding(innerPadding)
                     )
